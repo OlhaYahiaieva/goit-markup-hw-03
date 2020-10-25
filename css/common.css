@@ -1,0 +1,214 @@
+/* логотип */
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  font-style: normal;
+}
+
+/* site nav */
+.site-nav a {
+  color: var(--titel-text-color);
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  padding: 32px 0px;
+}
+.site-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 93px;
+  margin-right: 331px;
+}
+.site-nav li:not(:last-child) {
+  margin-right: 50px;
+}
+.address-page {
+  display: flex;
+  align-items: center;
+}
+.address-page :not(:last-child) {
+  margin-right: 50px;
+}
+
+/* заголовки */
+.titel {
+  color: var(--titel-text-color);
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.1;
+  margin: 0 auto;
+}
+
+.titel-generel {
+  color: var(--primary-wight-color);
+  font-size: 44px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  font-weight: 900px;
+  margin-bottom: 30px;
+}
+.description-titel {
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.portfolio-titel {
+  font-size: 18px;
+  line-height: 2;
+}
+
+/* секция generel */
+.generel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #2f303a;
+  height: 600px;
+}
+
+/* секция  description */
+.description-item {
+  padding-top: 94px;
+}
+.description-item p {
+  width: 270px;
+  height: 75px;
+  margin-top: 10px;
+}
+.description-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* секция work */
+.work-item {
+  margin-top: 50px;
+  padding-bottom: 94px;
+}
+.work-item:not(:last-child) {
+  margin-right: 30px;
+}
+.work-titel {
+  padding-top: 94px;
+}
+
+/* секция team */
+.team-name.text {
+  color: var(--titel-text-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+.team-list:not(:last-child) {
+  margin-right: 30px;
+}
+.team-our {
+  display: flex;
+}
+.team-titel {
+  padding-top: 94px;
+}
+.team-list {
+  margin-top: 50px;
+  padding-bottom: 94px;
+}
+.description-team {
+  padding: 30px 68px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.description-team .team-name {
+  margin-bottom: 10px;
+}
+/*секции на страничке portfolio */
+.iist-button {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  margin-right: 8px;
+}
+.button-item {
+  padding-bottom: 50px;
+}
+.button:not(:nth-last-child) {
+  margin-right: o;
+}
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-portfolio li {
+  display: flex;
+  width: 370px;
+  height: 404px;
+}
+.list-portfolio li:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+.list-portfolio li:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+}
+.description-portfolio {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  padding: 20px 24px;
+}
+.description-portfolio {
+  padding: 20px 24px;
+}
+
+/* кнопки */
+.button {
+  color: var(--titel-text-color);
+  background-color: var(--primary-button-color);
+  font-family: inherit;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+.button.primery {
+  background-color: var(--accent-color);
+  color: var(--primary-wight-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-wight-color);
+}
+
+/* футер */
+.page-footer {
+  background-color: #2f303a;
+}
+.footer-section {
+  padding: 60px 0px;
+}
+
+/*address адрес */
+.addres {
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: normal;
+}
+.address {
+  color: var(--primary-wight-color);
+  margin-top: 20px;
+}
+.page-footer .addres {
+  margin-top: 9px;
+}
