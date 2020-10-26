@@ -52,6 +52,9 @@ body {
 }
 
 /* основные цвета сайта header foote content-team*/
+.page-header {
+  border: 1px solid #ececec;
+}
 .page-header span {
   color: black;
 }
@@ -74,9 +77,18 @@ body {
 }
 .link {
   text-decoration: none;
+  font-weight: 500;
   display: block;
 }
-
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
 .text {
   margin: 0 auto;
 }
