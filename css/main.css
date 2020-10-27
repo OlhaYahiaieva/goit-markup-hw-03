@@ -44,7 +44,7 @@ body {
 }
 /* контейнер */
 .container {
-  width: 1230px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -53,7 +53,7 @@ body {
 
 /* основные цвета сайта header foote content-team*/
 .page-header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .page-header span {
   color: black;

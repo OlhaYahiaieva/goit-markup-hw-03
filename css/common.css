@@ -75,6 +75,9 @@
 }
 
 /* секция  description */
+.description-text {
+  line-height: 1.7;
+}
 .description {
   padding-top: 94px;
 }
@@ -194,9 +197,9 @@
 /* футер */
 .page-footer {
   background-color: #2f303a;
+  padding: 60px 0px;
 }
 .footer-section {
-  padding: 60px 0px;
 }
 
 /*address адрес */
